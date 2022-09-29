@@ -1,0 +1,138 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.site__text {
+    text-align: center;
+    color: #fff;
+}
+
+.site__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food__name {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.food__cost {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.food__img-link {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+} 
+
+.buttom {
+    margin-top: 32px;
+}
+
+.food__restorant {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.food__sheef {
+    width: 457px;
+    padding: 12px;  
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.site__button {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 44px;
+    margin-left: 20px;
+    background-color: #1de755;
+    color: #fff;
+    border: 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 47px;
+    padding: 50px;
+    background-color: #fff;
+    animation: animetions 0.5s;
+}
+
+.size {
+    width: 252px;
+    height: 168px;
+}
+
+.text__box {
+    margin-left: -350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: block;
+    flex-direction: column;
+}
+
+.delete {
+    cursor: pointer;
+    padding: 10px 26px;
+    color: #fff;
+    border: none;
+    background-color: #fb2020;
+}
+
+
+.time {
+    padding: 10px 26px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #f5d00d;
+}
+
+.end {
+    padding: 10px 26px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #15e04e;
+}
+
+@keyframes animetions {
+    0%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(0.8);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
